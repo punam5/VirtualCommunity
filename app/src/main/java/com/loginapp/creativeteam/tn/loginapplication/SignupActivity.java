@@ -50,7 +50,7 @@ public class SignupActivity extends AppCompatActivity {
             progress.setMessage("Loading ...");
             progress.show();
             ParseUser user = new ParseUser();
-            user.setUsername(edName.getText().toString().trim());
+            user.setUsername(edEmail.getText().toString().trim());
             user.setEmail(edEmail.getText().toString().trim());
             user.setPassword(edPassword.getText().toString());
             user.put("name", edName.getText().toString().trim());
