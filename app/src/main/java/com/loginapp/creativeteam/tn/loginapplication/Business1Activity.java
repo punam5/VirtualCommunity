@@ -60,7 +60,7 @@ public class Business1Activity extends AppCompatActivity {
 
                             if (e == null) {
                                 Toast.makeText(Business1Activity.this, "Welcome!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(Business1Activity.this, LoginActivity.class);
+                                Intent intent = new Intent(Business1Activity.this,ProfileActivity.class);
                                 startActivity(intent);
                                 finish();
                             } else {
